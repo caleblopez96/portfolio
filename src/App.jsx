@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
-
 import './App.css'
+import HomePage from './pages/Homepage.jsx'
+
 
 function App() {
   useEffect(() => {
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <>
-      <h1>test</h1>
+      <HomePage />
     </>
   )
 }
