@@ -3,7 +3,6 @@ header {
   top: 0;
   width: 100%;
   z-index: 999;
-  padding-bottom: 7rem;
 }
 
 .navbar {
@@ -14,7 +13,6 @@ header {
   padding: 1rem 1.5rem;
   background-color: rgb(14, 16, 15);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-  margin-bottom: 5rem;
 }
 
 .bar {
