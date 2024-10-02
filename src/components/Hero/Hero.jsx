@@ -19,7 +19,7 @@ const DynamicHeroText = () => {
   }, []);
 
   return (
-    <div id='container' className="flex items-center justify-center h-screen">
+    <div id='container' className="">
       <div className="text-center">
         <div className="max-w-md">
           <h1 className="text-3xl font-main">Hello, my name is Caleb</h1>
