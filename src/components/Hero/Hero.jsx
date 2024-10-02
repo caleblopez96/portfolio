@@ -19,10 +19,10 @@ const DynamicHeroText = () => {
   }, []); // No need for 'titles' in the dependency array
 
   return (
-    <div id='container' className="py-40">
+    <div id='container' className="">
       <div className="hero-content">
         <div className="max-w-md">
-          <h1 className="text-5xl font-main ">Hello, my name is Caleb</h1>
+          <h1 className="text-5xl font-bold font-main flex justify-center">Hello, my name is Caleb</h1>
           <p className="py-6 text-2xl">
             I&apos;m a <span className="font-bold text-primary">{jobTitle}</span>
           </p>
