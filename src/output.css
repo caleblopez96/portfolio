@@ -570,9 +570,9 @@ video {
   justify-content: center;
 }
 
-.bg-red-500 {
+.bg-red-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
 }
 
 .py-6 {
