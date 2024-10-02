@@ -19,9 +19,9 @@ const DynamicHeroText = () => {
   }, []);
 
   return (
-    <div className="flex items-center justify-center h-screen bg-cyan-500">
+    <div className="flex items-center justify-center h-screen bg-red-500 ">
       <div className="text-center">
-        <h1 className="text-4xl text-orange-950">Hello, my name is Caleb</h1>
+        <h1 className="text-4xl">Hello, my name is Caleb</h1>
         <p className="py-6 text-2xl">
           I&apos;m a <span className="font-bold text-primary">{jobTitle}</span>
         </p>
