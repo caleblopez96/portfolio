@@ -20,7 +20,7 @@ const DynamicHeroText = () => {
   }, []);
 
   return (
-    <div className="flex items-center justify-center h-screen bg-green-200">
+    <div className="flex items-center justify-center h-screen font-primary p-2w ">
 
       <div className="text-center">
 
