@@ -19,14 +19,12 @@ const DynamicHeroText = () => {
   }, []);
 
   return (
-    <div id='container' className="">
+    <div className="flex items-center justify-center h-screen bg-cyan-500">
       <div className="text-center">
-        <div className="max-w-md">
-          <h1 className="text-3xl font-main">Hello, my name is Caleb</h1>
-          <p className="py-6 text-2xl">
-            I&apos;m a <span className="font-bold text-primary">{jobTitle}</span>
-          </p>
-        </div>
+        <h1 className="text-4xl text-orange-950">Hello, my name is Caleb</h1>
+        <p className="py-6 text-2xl">
+          I&apos;m a <span className="font-bold text-primary">{jobTitle}</span>
+        </p>
       </div>
     </div>
   );
