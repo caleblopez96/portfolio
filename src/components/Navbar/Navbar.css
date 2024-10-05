@@ -11,7 +11,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
-  background-color: rgb(14, 16, 15);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -22,7 +21,6 @@ header {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: white;
 }
 
 .nav-menu {
@@ -33,24 +31,12 @@ header {
 }
 
 .nav-item {
-  font-family: var(--heading-font);
   font-size: 1.25rem;
   list-style-type: none;
 }
 
 .nav-link {
-  font-weight: 700;
-  color: white;
-  letter-spacing: .075rem;
   text-decoration: none;
-}
-
-.nav-link:hover {
-  color: #d2b48c;
-}
-
-.current-link {
-  color: red;
 }
 
 .button-container {
@@ -73,7 +59,6 @@ header {
   left: 0;
   top: 3.8rem;
   position: absolute;
-  background-color: rgb(14, 16, 15);
   z-index: 999;
 }
 
