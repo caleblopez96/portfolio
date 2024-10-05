@@ -50,7 +50,7 @@ header {
 }
 
 .current-link {
-  color: #f7df1e;
+  color: red;
 }
 
 .button-container {
@@ -67,6 +67,7 @@ header {
   width: 100%;
   text-align: center;
   transition: 0.3s;
+  box-shadow: 0 10px 2px rgba(0, 0, 0, 0.5);
 }
 
 .nav-menu.active {
@@ -74,7 +75,6 @@ header {
   top: 3.8rem;
   position: absolute;
   background-color: rgb(14, 16, 15);
-  box-shadow: 0 10px 2px rgba(0, 0, 0, 0.5);
   z-index: 999;
 }
 

@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState, useEffect } from 'react';
+import selfie from '../../assets/selfie.png';
 import "./Hero.css";
 
 const DynamicHeroText = () => {
@@ -20,12 +21,14 @@ const DynamicHeroText = () => {
   }, []);
 
   return (
-    <div className="flex items-center justify-center h-screen font-primary p-2w ">
-
+    <div className="flex items-center justify-center h-screen font-primary p-2">
       <div className="text-center">
-
+        <img src={selfie} alt='test' />
         <h1 className="text-4xl">Hello, I'm Caleb! I'm a </h1>
-        <p className="py-6 text-2xl"><span className="font-bold text-primary">{jobTitle}</span>
+        <p className="py-6 text-2xl">
+          <span className="font-bold text-primary text-red-700">
+            {jobTitle}
+          </span>
         </p>
       </div>
     </div>
