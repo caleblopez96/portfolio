@@ -10,6 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar font-main">
+      <h1 className='text-red-700 font-mono'>Caleb</h1>
       <div className="button-container" onClick={toggleMenu}>
         <div className={`hamburger ${isActive ? 'active' : ''}`}>
           <span className="bar"></span>

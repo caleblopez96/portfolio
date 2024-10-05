@@ -23,7 +23,7 @@ const DynamicHeroText = () => {
   return (
     <div className="flex items-center justify-center h-screen p-2">
       <div className="text-center">
-        <img src={selfie} alt='test' />
+        <img src={selfie} alt='test' style={{ maxWidth: 'none', height: '450px' }} className='roll-in-top' />
         <h1 className="text-3xl font-mono">Hello, I'm Caleb! I'm a </h1>
         <p className="py-6 text-2xl">
           <span className="font-mono text-red-700">
