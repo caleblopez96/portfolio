@@ -48,7 +48,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar font-main bg-light-background dark:bg-dark-background">
+    <nav className="navbar font-main bg-light-background dark:bg-dark-background fixed w-full">
       <h1 className='text-light-primary font-mono'>Caleb</h1>
       <div className="flex items-center">
         <button
@@ -67,10 +67,10 @@ const Navbar = () => {
       </div>
       <ul className={`font-mono nav-menu ${isActive ? 'active' : ''} bg-light-background dark:bg-dark-background`}>
         <li className="nav-item">
-          <a href="index.html" className="nav-link current-link text-light-primary">home</a>
+          <a href="#Top" className="nav-link current-link text-light-primary">home</a>
         </li>
         <li className="nav-item">
-          <a href="src/pages/about.html" className="nav-link text-light-text dark:text-dark-text">about</a>
+          <a href="#About" className="nav-link text-light-text dark:text-dark-text">about</a>
         </li>
         <li className="nav-item">
           <a href="src/pages/contact.html" className="nav-link text-light-text dark:text-dark-text">contact</a>
