@@ -1,5 +1,4 @@
 header {
-
   top: 0;
   width: 100%;
   z-index: 999;
@@ -58,8 +57,8 @@ header {
 .nav-menu.active {
   left: 0;
   top: 3.8rem;
-  position: absolute;
-  z-index: 999;
+  /* position: absolute; */
+  height: 100vh;
 }
 
 .nav-item {

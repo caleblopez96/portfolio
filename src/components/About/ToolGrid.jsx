@@ -15,8 +15,8 @@ const technologies = [
 const ToolsAndTechnologies = () => {
   return (
     <section className="py-8">
-      <h1 className="text-3xl font-bold mb-2 text-red-700">Tools & Tech I love</h1>
-      <h2 className="text-base mb-4">
+      <h1 className="text-3xl font-semibold mb-2 text-red-700">Tools & Tech I love</h1>
+      <h2 className="text-base mb-4 italic">
         Here are some of my favorite technologies to build with:
       </h2>
       <div className="flex flex-wrap gap-4">
