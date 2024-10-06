@@ -15,9 +15,9 @@ const technologies = [
 const ToolsAndTechnologies = () => {
   return (
     <section className="py-8">
-      <h1 className="text-4xl font-bold mb-2 text-red-700">Tools and Technologies</h1>
-      <h2 className="text-xl mb-4">
-        Here are a few of my favorite technologies to develop with
+      <h1 className="text-3xl font-bold mb-2 text-red-700">Tools and Technologies</h1>
+      <h2 className="text-base mb-4">
+        Here are a few of my favorite technologies to build with
       </h2>
       <div className="flex flex-wrap gap-4">
         {technologies.map((tech) => (
