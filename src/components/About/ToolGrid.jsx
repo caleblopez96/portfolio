@@ -1,5 +1,5 @@
 const technologies = [
-  { name: "HTML", color: "bg-orange-400" },
+  { name: "HTML", color: "bg-orange-400", image: "../../assets/svg/" },
   { name: "CSS", color: "bg-blue-500" },
   { name: "JavaScript", color: "bg-yellow-500" },
   { name: "TypeScript", color: "bg-blue-500" },
