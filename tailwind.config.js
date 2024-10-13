@@ -4,7 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: 'class', // Enable class-based dark mode
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
@@ -14,12 +14,12 @@ export default {
         light: {
           background: '#ffffff',
           text: '#333333',
-          primary: '#dc2626', // Tailwind's red-600
+          primary: '#dc2626',
         },
         dark: {
-          background: '#1a202c', // Tailwind's gray-900
-          text: '#f7fafc', // Tailwind's gray-100
-          primary: '#f87171', // Tailwind's red-400
+          background: '#1a202c',
+          text: '#f7fafc',
+          primary: '#f87171',
         },
       },
     },
