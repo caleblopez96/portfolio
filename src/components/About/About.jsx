@@ -10,6 +10,7 @@ const About = () => {
           Thanks to my GI-BILL, I’m diving deep into full-stack web development at Arizona State University. Web development constantly challenges me, and I love working across both the front-end and back-end. I’m on the lookout for full-stack internships in summer 2025 where I can put my skills to the test, learn, and contribute to some exciting projects.
         </p>
         <ToolGrid />
+        <p>test</p>
       </div>
     </>
   );
