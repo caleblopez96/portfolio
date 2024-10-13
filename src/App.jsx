@@ -1,6 +1,5 @@
 import { useEffect } from 'react'
 import '../css/app.css'
-
 import HomePage from './pages/Homepage.jsx'
 import { ThemeProvider } from './ThemeContext'
 
