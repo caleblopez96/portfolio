@@ -1,11 +1,15 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
-const ContactMe = () => {
+export default function ContactMe() {
   const [name, setName] = useState('')
 
-  setName(() => {
-    return name
+  useEffect(() => {
+    return setName('Caleb')
   }, [])
+
+  return(
+    <h1>hello {name}</h1>
+  )
 }
 
-export default ContactMe
+
