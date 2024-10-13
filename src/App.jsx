@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
-import '../css/app.css'
+// import '../css/app.css'
+import '../src/css/app.css'
 import HomePage from './pages/Homepage.jsx'
 import { ThemeProvider } from './ThemeContext'
 
