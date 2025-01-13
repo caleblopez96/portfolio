@@ -44,8 +44,8 @@ const Navbar = () => {
   const { isDarkMode, toggleDarkMode } = useContext(ThemeContext);
 
   const toggleMenu = () => {
-    setIsActive((prev) => !prev);
-  };
+    setIsActive((prev) => !prev)
+  }
 
   return (
     <nav className="navbar font-main bg-light-background dark:bg-dark-background fixed w-full">
