@@ -32,7 +32,7 @@ const technologies = [
 ];
 
 
-const ToolsAndTechnologies = () => {
+export default function ToolsAndTechnologies() {
   return (
     <section className="py-8">
       <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-2">Tools & Tech I love</h1>
@@ -50,4 +50,3 @@ const ToolsAndTechnologies = () => {
   );
 };
 
-export default ToolsAndTechnologies;

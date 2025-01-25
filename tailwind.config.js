@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        primary: ["Roboto Mono", "system-ui"],
+        primary: ["Inter", "system-ui"],
       },
       colors: {
         light: {
