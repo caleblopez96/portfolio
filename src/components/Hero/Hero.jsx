@@ -22,7 +22,7 @@ const DynamicHeroText = () => {
 
   return (
     <div id="Top" className="flex items-center h-screen hero-container border-b-4 border-b-red-700">
-      <div className="px-3 py-2">
+      <div className="px-4 lg:px-12 py-2">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-primary font-semibold">
           Hi, I'm Caleb
         </h1>
@@ -31,7 +31,7 @@ const DynamicHeroText = () => {
             {jobTitle}
           </span>
         </p>
-        <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-balance py-3 font-primary">
+        <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-balance py-3 font-primary lg:w-2/3">
           I'm a full-time student studying full-stack web development at Arizona State University.
           I love building websites and web applications using JavaScript/TypeScript.
         </p>
