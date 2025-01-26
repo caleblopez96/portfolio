@@ -11,7 +11,7 @@ export default function About() {
             <img
               src={portrait}
               alt="Caleb's portrait"
-              className="h-full w-auto rounded-full"
+              className="sm:h-auto w-auto rounded-full"
             />
           </div>
 
