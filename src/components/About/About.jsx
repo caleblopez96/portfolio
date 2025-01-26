@@ -1,14 +1,22 @@
-
 import ToolGrid from './ToolGrid';
-import portraitAdjustedBrightness from '../../assets/portrait-adjusted-brightness.png';
-
+import portrait from '../../assets/portrait-adjusted-brightness.png';
 
 export default function About() {
   return (
-    <section className=" bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 px-4 md:px-12 lg:px-16 py-16 flex">
-      <div className="container mx-auto max-w-6xl">
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-24 items-start">
-          <div className="space-y-6">
+    <section className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 flex">
+      <div className="container mx-auto px-4 py-8 max-w-6xl">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-12 items-start">
+          {/* Image: Show first on small screens */}
+          <div className="order-1 md:order-2">
+            <img
+              src={portrait}
+              alt="Caleb's portrait"
+              className="h-full w-auto rounded-full"
+            />
+          </div>
+
+          {/* About Content */}
+          <div className="space-y-6 order-2 md:order-1">
             <h2
               id="About"
               className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-gray-100 tracking-tight"
@@ -25,17 +33,8 @@ export default function About() {
             </div>
             <ToolGrid />
           </div>
-
-          <div>
-            <img
-              src={(portraitAdjustedBrightness)}
-              alt="Caleb's portrait"
-              className="h-full w-auto rounded-full"
-            />
-          </div>
         </div>
       </div>
     </section>
   );
 }
-
