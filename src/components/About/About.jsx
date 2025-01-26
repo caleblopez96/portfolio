@@ -1,10 +1,11 @@
 
 import ToolGrid from './ToolGrid';
+import portraitAdjustedBrightness from '../../assets/portrait-adjusted-brightness.png';
 
 
 export default function About() {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 px-4 md:px-12 lg:px-12 py-16 flex">
+    <section className=" bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 px-4 md:px-12 lg:px-16 py-16 flex">
       <div className="container mx-auto max-w-6xl">
         <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-24 items-start">
           <div className="space-y-6">
@@ -27,7 +28,7 @@ export default function About() {
 
           <div>
             <img
-              src={('src/assets/portrait-adjusted-brightness.png')}
+              src={(portraitAdjustedBrightness)}
               alt="Caleb's portrait"
               className="h-full w-auto rounded-full"
             />
