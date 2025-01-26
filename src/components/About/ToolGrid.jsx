@@ -34,14 +34,11 @@ const technologies = [
 
 export default function ToolsAndTechnologies() {
   return (
-    <section className="py-8">
-      <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-2">Tools & Tech I love</h1>
-      <h2 className="text-lg sm:text-xl md:text-2xl lg:text-2xl text-balance py-3">
-        Here are some of my favorite technologies to build with:
-      </h2>
-      <div className="flex flex-wrap gap-4">
+    <section className='font-primary'>
+      <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-gray-100 tracking-tight">Tech I love</h2>
+      <div className="flex flex-wrap gap-4 py-8">
         {technologies.map((tech) => (
-          <div key={tech.name} className={`${tech.color} font-semibold px-4 py-2 rounded shadow hover:shadow-lg transition-shadow duration-200`} role="button"> {tech.name}
+          <div key={tech.name} className={`${tech.color} font-semibold px-2 py-2 rounded shadow hover:shadow-lg transition-shadow duration-200`} role="button"> {tech.name}
             <img src={tech.image} alt={tech.name} className="w-8 h-8 inline-block ml-2" />
           </div>
         ))}

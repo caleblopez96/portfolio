@@ -1,18 +1,34 @@
-import ToolGrid from './ToolGrid'
+
+import ToolGrid from './ToolGrid';
 
 export default function About() {
   return (
-    <>
-      <div className="min-h-screen px-3 py-10 font-primary border-b-4 border-b-red-700">
-        <h1 id="About" className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-primary font-bold text-red-700">About Me</h1>
-        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-2">Turning my passion into a career...</h2>
-        <p className="text-lg sm:text-xl md:text-2xl lg:text-2xl text-balance py-3">
-          Thanks to my GI-BILL, I’m diving deep into full-stack web development at Arizona State University. Web development constantly challenges me, and I love working across both the front-end and back-end. I’m on the lookout for full-stack internships in summer 2025 where I can put my skills to the test, learn, and contribute to some exciting projects.
-        </p>
-        <ToolGrid />
-      </div>
-    </>
-  );
-};
+    <section className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 px-4 md:px-12 lg:px-24 py-16 flex">
+      <div className="container mx-auto max-w-6xl">
+        <div className="grid md:grid-cols-2 gap-24 items-start">
+          <div className="space-y-6">
+            <h2
+              id="About"
+              className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-gray-100 tracking-tight"
+            >
+              About Me
+            </h2>
+            <div className="space-y-4 text-gray-700 dark:text-gray-300">
+              <p className="text-base md:text-lg leading-relaxed text-balance">
+                Hello! My name is Caleb, and I’m a full-time student pursuing a BS in GIT with a focus on full-stack web development from Arizona State University. I’m originally from Houston, Texas, but transferred to ASU afterer leaving the Army to pursue my passion for programming. I have some minor experience building web applications using JavaScript, React, and Node.js. I know I still have a lot to learn, but my passion for solving problems and the enjoyment I get from programming keeps me coming back for more.
+              </p>
+              <p className="text-base md:text-lg leading-relaxed text-balance">
+                After graduation, I hope to work on enterprise-level web applications, particularly with JavaScript and TypeScript. Outside of school, I enjoy playing Fortnite, training 10th Planet Jiu-Jitsu, and going on hikes with my wife and our dog.
+              </p>
+            </div>
+          </div>
 
+          <div>
+            <ToolGrid />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
 
