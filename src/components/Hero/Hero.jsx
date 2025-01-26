@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState, useEffect } from 'react';
 import "./Hero.css";
+import Button from '../Button/Button';
 
 const DynamicHeroText = () => {
   const [jobTitle, setJobTitle] = useState('Full-Stack Web Developer');
@@ -34,6 +35,7 @@ const DynamicHeroText = () => {
           I'm a full-time student studying full-stack web development at Arizona State University.
           I love building websites and web applications using JavaScript/TypeScript.
         </p>
+        <Button />
         <div className="flex gap-2">
           <a href="https://github.com/caleblopez96">
             <svg className="w-10 h-10 fill-current text-gray-900 dark:text-gray-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40px" height="40px">
