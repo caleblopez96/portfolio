@@ -11,7 +11,7 @@ export default function About() {
             <img
               src={portrait}
               alt="Caleb's portrait"
-              className="w-auto rounded-full" // i removed these classes. keeping them here for now jic: sm:max-h-96 h-full 
+              className="w-auto rounded-full shadow-2xl" // i removed these classes. keeping them here for now jic: sm:max-h-96 h-full 
             />
           </div>
 

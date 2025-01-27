@@ -25,7 +25,7 @@ export default function ContactForm() {
     <section className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 flex justify-center py-8">
       <div className="container mx-auto px-4 max-w-md">
         <h2 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-6">Contact Me</h2>
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={handleSubmit} id='form' className="space-y-6">
           {/* Name Field */}
           <div>
             <label htmlFor="name" className="block text-lg font-semibold text-gray-900 dark:text-gray-100">Name</label>
