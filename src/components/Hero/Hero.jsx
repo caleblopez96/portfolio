@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState, useEffect } from 'react';
 import "./Hero.css";
-import Button from '../Button/Button';
 import image2 from '../../assets/IMG_2803.png'
 
 const DynamicHeroText = () => {
@@ -39,7 +38,9 @@ const DynamicHeroText = () => {
             I'm a full-time student studying full-stack web development at Arizona State University.
             I love building websites and web applications using JavaScript/TypeScript.
           </p>
-          <Button />
+          <div className="py-4">
+            <a className="px-8 py-3 bg-black text-white font-semibold text-lg rounded-full hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-700 transition duration-200 ease-in-out" target='_blank' href="https://drive.google.com/file/d/1PH08Cp9IzocSPiOcQdKDGaqMwb2p6-0l/view?usp=sharing">Resume</a>
+          </div>
           <div className="flex gap-2">
             <a href="https://github.com/caleblopez96">
               <svg

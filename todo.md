@@ -8,6 +8,4 @@ add the rest of the sections
 
 fix the tool grid
 
-fix the about me sections its so cringe-y
-
 this shit sucks so far kick it into gear
