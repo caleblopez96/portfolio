@@ -7,7 +7,7 @@ export default function About() {
       <div className="container mx-auto px-4 py-8 max-w-6xl">
         <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-12 items-start">
           {/* Image: Show first on small screens */}
-          <div className="order-1 md:order-2">
+          <div className="order-1 md:order-2 flex justify-center">
             <img
               src={portrait}
               alt="Caleb's portrait"
