@@ -7,16 +7,16 @@ export default function ContactForm() {
     message: '',
   })
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
+  const handleChange = (event) => {
+    const { name, value } = event.target;
     setFormData((prevData) => ({
       ...prevData,
       [name]: value,
     }))
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (event) => {
+    event.preventDefault();
     console.log("Form submitted", formData)
     setFormData({ name: '', email: '', message: '' })
   }
