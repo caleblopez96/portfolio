@@ -8,6 +8,7 @@ import reactIcon from '../../assets/icons8-react-48.png'
 import expressIcon from '../../assets/icons8-express-js-48.png'
 import nodeIcon from '../../assets/icons8-nodejs-48.png'
 import gitIcon from '../../assets/icons8-git-48.png'
+import { motion } from 'motion/react';
 
 const technologies = [
   { name: "HTML", color: "bg-white dark:bg-gray-800 hover:bg-gray-900 hover:text-white dark:hover:bg-gray-200 dark:hover:text-gray-900", image: htmlIcon },
@@ -34,7 +35,12 @@ const technologies = [
 
 export default function ToolsAndTechnologies() {
   return (
-    <section className='font-primary'>
+    <motion.section
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
+      viewport={{ amount: "all" }}
+      className='font-primary' >
       <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-gray-100 tracking-tight">Tech I love</h2>
       <div className="flex flex-wrap gap-4 py-8">
         {technologies.map((tech) => (
@@ -43,7 +49,7 @@ export default function ToolsAndTechnologies() {
           </div>
         ))}
       </div>
-    </section>
+    </motion.section >
   );
 };
 
