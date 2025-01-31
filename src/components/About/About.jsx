@@ -18,9 +18,9 @@ export default function About() {
 
           <motion.div
             className="space-y-6 order-2 md:order-1"
-            initial={{ opacity: 0, y: 50 }}  // Initially off-screen and hidden
-            whileInView={{ opacity: 1, y: 0 }}  // Fade in and move to original position
-            transition={{ duration: 1 }}  // Set animation duration
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
           >
             <h2
               id="About"

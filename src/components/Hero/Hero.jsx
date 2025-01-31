@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState, useEffect } from 'react';
-import "./Hero.css";
+import { motion } from 'motion/react';
 import image2 from '../../assets/IMG_2803.png'
 
 const DynamicHeroText = () => {
@@ -67,14 +67,20 @@ const DynamicHeroText = () => {
           </div>
         </div>
 
-        {/* right side */}
-        <div className="flex-1 flex justify-center items-center pb-6">
+
+
+        <motion.div
+          className="flex-1 flex justify-center items-center pb-6"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
           <img
             src={image2}
             alt="Your Hero Image"
             className="rounded-lg shadow-lg max-h-96 w-auto shadow-black"
           />
-        </div>
+        </motion.div>
       </div>
     </div>
   );
