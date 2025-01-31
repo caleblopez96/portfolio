@@ -18,7 +18,7 @@ export default function About() {
 
           <motion.div
             className="space-y-6 order-2 md:order-1"
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
