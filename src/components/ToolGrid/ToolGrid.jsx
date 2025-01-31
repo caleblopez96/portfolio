@@ -39,7 +39,6 @@ export default function ToolsAndTechnologies() {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
-      viewport={{ amount: "all" }}
       className='font-primary' >
       <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-gray-100 tracking-tight">Tech I love</h2>
       <div className="flex flex-wrap gap-4 py-8">
