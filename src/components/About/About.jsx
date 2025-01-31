@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import portrait from '../../assets/portrait-adjusted-brightness.png';
 import ToolGrid from "../ToolGrid/ToolGrid";
 
@@ -11,12 +12,16 @@ export default function About() {
             <img
               src={portrait}
               alt="Caleb's portrait"
-              className="w-auto rounded-full shadow-2xl" // i removed these classes. keeping them here for now jic: sm:max-h-96 h-full 
+              className="w-auto rounded-full shadow-2xl"
             />
           </div>
 
-          {/* About Content */}
-          <div className="space-y-6 order-2 md:order-1">
+          <motion.div
+            className="space-y-6 order-2 md:order-1"
+            initial={{ opacity: 0, y: 50 }}  // Initially off-screen and hidden
+            whileInView={{ opacity: 1, y: 0 }}  // Fade in and move to original position
+            transition={{ duration: 1 }}  // Set animation duration
+          >
             <h2
               id="About"
               className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-gray-100 tracking-tight"
@@ -32,7 +37,7 @@ export default function About() {
               </p>
             </div>
             <ToolGrid />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
