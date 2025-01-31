@@ -26,35 +26,33 @@ export default function ContactForm() {
       <div className="container mx-auto px-4 max-w-md">
         <h2 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-6">Contact Me</h2>
         <form onSubmit={handleSubmit} id='form' className="space-y-6">
-          {/* Name Field */}
+
           <div>
-            <label htmlFor="name" className="block text-lg font-semibold text-gray-900 dark:text-gray-100">Name</label>
+            <label htmlFor="name" className="block text-lg font-semibold text-gray-900 dark:text-gray-100">Name *</label>
             <input
               type="text"
               id="name"
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full px-4 py-2 mt-2 border rounded-lg shadow-sm focus:ring-2 focus:ring-red-500"
+              className="w-full px-4 py-2 mt-2 border rounded-lg shadow-sm focus:ring-2 focus:ring-red-500 text-black"
               required
             />
           </div>
 
-          {/* Email Field */}
           <div>
-            <label htmlFor="email" className="block text-lg font-semibold text-gray-900 dark:text-gray-100">Email</label>
+            <label htmlFor="email" className="block text-lg font-semibold text-gray-900 dark:text-gray-100">Email *</label>
             <input
               type="email"
               id="email"
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full px-4 py-2 mt-2 border rounded-lg shadow-sm focus:ring-2 focus:ring-red-500"
+              className="w-full px-4 py-2 mt-2 border rounded-lg shadow-sm focus:ring-2 focus:ring-red-500 text-black"
               required
             />
           </div>
 
-          {/* Message Field */}
           <div>
             <label htmlFor="message" className="block text-lg font-semibold text-gray-900 dark:text-gray-100">Message</label>
             <textarea
@@ -62,7 +60,7 @@ export default function ContactForm() {
               name="message"
               value={formData.message}
               onChange={handleChange}
-              className="w-full px-4 py-2 mt-2 border rounded-lg shadow-sm focus:ring-2 focus:ring-red-500"
+              className="w-full px-4 py-2 mt-2 border rounded-lg shadow-sm focus:ring-2 focus:ring-red-500 text-black"
               rows="4"
               required
             />
