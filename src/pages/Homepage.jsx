@@ -7,7 +7,7 @@ import Contact from "../components/Contact/Contact"
 const HomePage = () => {
   return (
     <div>
-      <NavBar /> {/* Use NavBar as a component */}
+      <NavBar />
       <Hero />
       <About />
       <Contact />
