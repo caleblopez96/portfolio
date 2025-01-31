@@ -1,6 +1,7 @@
 import { useState, useContext } from "react";
 import "../Navbar/Navbar.css";
 import { ThemeContext } from "../../ThemeContext";
+// import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
