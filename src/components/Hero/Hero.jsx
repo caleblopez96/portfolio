@@ -21,7 +21,7 @@ const DynamicHeroText = () => {
   }, []);
 
   return (
-    <div id="Top" className="flex items-center min-h-screen hero-container border-b-4 border-b-red-700">
+    <div id="Top" className="flex items-center min-h-screen hero-container border-b-red-700">
 
       <div className="container mx-auto pt-28 flex flex-col md:flex-row items-center justify-between px-4 lg:px-12 py-2 gap-8 h-auto">
         {/* left side*/}
@@ -39,7 +39,7 @@ const DynamicHeroText = () => {
             I love building websites and web applications using JavaScript/TypeScript.
           </p>
           <div className="py-4">
-            <a className="px-8 py-3 bg-black text-white font-semibold text-lg rounded-full hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-700 transition duration-200 ease-in-out" target='_blank' href="https://drive.google.com/file/d/1PH08Cp9IzocSPiOcQdKDGaqMwb2p6-0l/view?usp=sharing">Resume</a>
+            <a className="px-8 py-3 bg-red-700 text-white font-semibold text-lg rounded-full hover:bg-black focus:outline-none focus:ring-4 focus:ring-red-700 transition duration-200 ease-in-out" target='_blank' href="https://drive.google.com/file/d/1PH08Cp9IzocSPiOcQdKDGaqMwb2p6-0l/view?usp=sharing">Resume</a>
           </div>
           <div className="flex gap-2">
             <a href="https://github.com/caleblopez96">
