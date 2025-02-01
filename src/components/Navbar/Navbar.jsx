@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar font-main bg-light-background dark:bg-dark-background fixed w-full z-50">
-      <h1 className="text-light-primary font-mono">Caleb</h1>
+      <h1 className="text-light-primary font-primary">Caleb</h1>
       <div className="flex items-center">
         <button
           onClick={toggleDarkMode}

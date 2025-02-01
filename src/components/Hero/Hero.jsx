@@ -24,11 +24,10 @@ const DynamicHeroText = () => {
     <div id="Top" className="flex items-center min-h-screen hero-container border-b-red-700">
 
       <div className="container mx-auto pt-28 flex flex-col md:flex-row items-center justify-between px-4 lg:px-12 py-2 gap-8 h-auto">
-        {/* left side*/}
         <div className="flex-1">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-primary font-semibold">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-primary font-semibold">
             Hi, I'm Caleb
-          </h1>
+          </h2>
           <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-2">
             <span className="font-primary font-semibold text-red-700">
               {jobTitle}
