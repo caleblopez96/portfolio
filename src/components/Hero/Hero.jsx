@@ -21,7 +21,12 @@ const DynamicHeroText = () => {
   }, []);
 
   return (
-    <div id="Top" className="flex items-center min-h-screen hero-container border-b-red-700">
+    <motion.div id="Top"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ amount: 0.5 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+      className="flex items-center min-h-screen hero-container border-b-red-700">
 
       <div className="container mx-auto pt-28 flex flex-col md:flex-row items-center justify-between px-4 lg:px-12 py-2 gap-8 h-auto">
         <div className="flex-1">
@@ -81,7 +86,7 @@ const DynamicHeroText = () => {
           />
         </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

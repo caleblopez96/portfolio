@@ -48,7 +48,7 @@ export default function ToolsAndTechnologies() {
           </div>
         ))}
       </div>
-    </motion.section >
+    </motion.section>
   );
 };
 
