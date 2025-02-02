@@ -24,7 +24,7 @@ const DynamicHeroText = () => {
     <motion.div id="Top"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ amount: 0.5 }}
+      viewport={{ amount: 0.1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="flex items-center min-h-screen hero-container border-b-red-700">
 
