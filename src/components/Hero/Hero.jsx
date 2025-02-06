@@ -37,7 +37,7 @@ const DynamicHeroText = () => {
               {jobTitle}
             </span>
           </p>
-          <p className="text-lg sm:text-xl md:text-2xl lg:text-2xl text-balance py-3 font-primary">
+          <p className=" max-w-xl text-lg sm:text-xl md:text-2xl lg:text-2xl text-balance py-3 font-primary">
             I'm a full-time student studying full-stack web development at Arizona State University.
             I love building websites and web applications using JavaScript/TypeScript.
           </p>
