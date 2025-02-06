@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { motion } from 'motion/react';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -23,12 +22,7 @@ export default function ContactForm() {
   }
 
   return (
-    <motion.section
-      initial={{ opacity: 0, y: 100 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ amount: 0.1 }}
-      transition={{ duration: 0.8, ease: "easeOut" }}
-      className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 flex justify-center py-8">
+    <section className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 flex justify-center py-8">
       <div className="container mx-auto px-4 max-w-md">
         <h2 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-6">Contact Me</h2>
         <form onSubmit={handleSubmit} id='form' className="space-y-6">
@@ -72,7 +66,6 @@ export default function ContactForm() {
             />
           </div>
 
-          {/* Submit Button */}
           <div>
             <button
               type="submit"
@@ -83,6 +76,6 @@ export default function ContactForm() {
           </div>
         </form>
       </div>
-    </motion.section>
+    </section>
   );
 }

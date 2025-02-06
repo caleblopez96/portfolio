@@ -22,10 +22,9 @@ const DynamicHeroText = () => {
 
   return (
     <motion.div id="Top"
-      initial={{ opacity: 0, y: 50 }}
+      initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ amount: 0.1 }}
-      transition={{ duration: 0.8, ease: "easeOut" }}
+      transition={{ duration: 1 }}
       className="flex items-center min-h-screen hero-container border-b-red-700">
 
       <div className="container mx-auto pt-28 flex flex-col md:flex-row items-center justify-between px-4 lg:px-12 py-2 gap-8 h-auto">
@@ -75,9 +74,9 @@ const DynamicHeroText = () => {
 
         <motion.div
           className="flex-1 flex justify-center items-center pb-6"
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
+          // initial={{ opacity: 0, y: 50 }}
+          // whileInView={{ opacity: 1, y: 0 }}
+          // transition={{ duration: 1 }}
         >
           <img
             src={image2}

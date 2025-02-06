@@ -43,7 +43,8 @@ export default function ToolsAndTechnologies() {
       <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-gray-100 tracking-tight">Tech I love</h2>
       <div className="flex flex-wrap gap-4 py-8">
         {technologies.map((tech) => (
-          <div key={tech.name} className={`${tech.color} font-semibold px-2 py-2 rounded shadow hover:shadow-lg transition-shadow duration-200`} role="button"> {tech.name}
+          <div key={tech.name} className={`${tech.color} font-semibold px-2 py-2 rounded shadow hover:shadow-lg transition-shadow duration-200`} role="button"> 
+          {tech.name}
             <img src={tech.image} alt={tech.name} className="w-8 h-8 inline-block ml-2" />
           </div>
         ))}
