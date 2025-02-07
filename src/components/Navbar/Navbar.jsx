@@ -34,7 +34,9 @@ const Navbar = () => {
         </div>
       </div>
       <ul
-        className={`font-mono nav-menu ${isActive ? "active" : ""} bg-light-background dark:bg-dark-background`}
+        className={`font-mono nav-menu ${
+          isActive ? "active" : ""
+        } bg-light-background dark:bg-dark-background`}
       >
         <li className="nav-item">
           <a

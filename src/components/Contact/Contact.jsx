@@ -1,34 +1,40 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  })
+    name: "",
+    email: "",
+    message: "",
+  });
 
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormData((prevData) => ({
       ...prevData,
       [name]: value,
-    }))
-  }
+    }));
+  };
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log("Form submitted", formData)
-    setFormData({ name: '', email: '', message: '' })
-  }
+    console.log("Form submitted", formData);
+    setFormData({ name: "", email: "", message: "" });
+  };
 
   return (
     <section className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 flex justify-center py-8">
       <div className="container mx-auto px-4 max-w-md">
-        <h2 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-6">Contact Me</h2>
-        <form onSubmit={handleSubmit} id='form' className="space-y-6">
-
+        <h2 className="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-6">
+          Contact Me
+        </h2>
+        <form onSubmit={handleSubmit} id="form" className="space-y-6">
           <div>
-            <label htmlFor="name" className="block text-lg font-semibold text-gray-900 dark:text-gray-100">Name *</label>
+            <label
+              htmlFor="name"
+              className="block text-lg font-semibold text-gray-900 dark:text-gray-100"
+            >
+              Name *
+            </label>
             <input
               type="text"
               id="name"
@@ -41,7 +47,12 @@ export default function ContactForm() {
           </div>
 
           <div>
-            <label htmlFor="email" className="block text-lg font-semibold text-gray-900 dark:text-gray-100">Email *</label>
+            <label
+              htmlFor="email"
+              className="block text-lg font-semibold text-gray-900 dark:text-gray-100"
+            >
+              Email *
+            </label>
             <input
               type="email"
               id="email"
@@ -54,7 +65,12 @@ export default function ContactForm() {
           </div>
 
           <div>
-            <label htmlFor="message" className="block text-lg font-semibold text-gray-900 dark:text-gray-100">Message</label>
+            <label
+              htmlFor="message"
+              className="block text-lg font-semibold text-gray-900 dark:text-gray-100"
+            >
+              Message
+            </label>
             <textarea
               id="message"
               name="message"
