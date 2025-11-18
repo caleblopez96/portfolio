@@ -32,7 +32,7 @@ const DynamicHeroText = () => {
           <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-primary font-semibold">
             Hi, I'm Caleb
           </h2>
-          <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-2">
+          <p className="text-xl sm:text-2xl md:text-3xl mt-2">
             <span className="font-primary font-semibold text-red-700">
               {jobTitle}
             </span>

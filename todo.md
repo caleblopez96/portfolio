@@ -1,5 +1,3 @@
-fix the type --> find two fonts that look better together
+[] Add project section component
 
-add the rest of the sections
-
-fix the tool grid
+[] Add component for case study
