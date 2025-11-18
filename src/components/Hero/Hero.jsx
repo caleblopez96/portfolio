@@ -37,16 +37,14 @@ const DynamicHeroText = () => {
                     <p className=" max-w-xl text-lg sm:text-xl md:text-2xl lg:text-2xl text-balance py-3 font-primary">
                         with over two years of experience building UIs with React, integrating web APIs, and developing backend services.
                     </p>
-                    <div className="py-4">
+                    <div className="py-4 flex gap-2">
                         <a
-                            className="px-8 py-3 bg-red-700 text-white font-semibold text-lg rounded-full hover:bg-black focus:outline-none focus:ring-4 focus:ring-red-700 transition duration-200 ease-in-out"
+                            className="px-6 py-3 bg-red-700 text-white font-semibold text-md rounded-full hover:bg-black focus:outline-none focus:ring-4 focus:ring-red-700 transition duration-200 ease-in-out"
                             target="_blank"
                             href="https://drive.google.com/file/d/1PH08Cp9IzocSPiOcQdKDGaqMwb2p6-0l/view?usp=sharing"
                         >
                             Resume
                         </a>
-                    </div>
-                    <div className="flex gap-2">
                         <a href="https://github.com/caleblopez96">
                             <svg
                                 className="w-10 h-10 fill-current text-gray-900 dark:text-gray-100"
