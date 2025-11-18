@@ -6,7 +6,7 @@ const Footer = () => {
     initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}>
-      <p className="text-center py-8 font-mono">Made with React, Tailwind and Motion by Me 😎</p>
+      <p className="text-center py-8 font-mono">Copyright 2025 Caleb Lopez</p>
     </motion.footer>
   )
 }

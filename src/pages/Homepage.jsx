@@ -10,7 +10,7 @@ const HomePage = () => {
       <NavBar />
       <Hero />
       <About />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   );

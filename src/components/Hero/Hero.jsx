@@ -7,7 +7,7 @@ const DynamicHeroText = () => {
   const [jobTitle, setJobTitle] = useState('Full-Stack Web Developer');
 
   useEffect(() => {
-    const titles = ['Student', 'Programmer', 'Full-Stack Web Developer'];
+    const titles = ['Software Developer', 'Programmer', 'Full-Stack Web Developer', 'Graduate Student'];
 
     const intervalId = setInterval(() => {
       setJobTitle(prevTitle => {
@@ -38,8 +38,7 @@ const DynamicHeroText = () => {
             </span>
           </p>
           <p className=" max-w-xl text-lg sm:text-xl md:text-2xl lg:text-2xl text-balance py-3 font-primary">
-            I'm a full-time student studying full-stack web development at Arizona State University.
-            I love building websites and web applications using JavaScript/TypeScript.
+            with over two years of experience building UIs with React, integrating web APIs, and developing backend services.
           </p>
           <div className="py-4">
             <a className="px-8 py-3 bg-red-700 text-white font-semibold text-lg rounded-full hover:bg-black focus:outline-none focus:ring-4 focus:ring-red-700 transition duration-200 ease-in-out" target='_blank' href="https://drive.google.com/file/d/1PH08Cp9IzocSPiOcQdKDGaqMwb2p6-0l/view?usp=sharing">Resume</a>
