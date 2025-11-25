@@ -1,7 +1,6 @@
-/* eslint-disable react/no-unescaped-entities */
 import { useState, useEffect } from "react";
 import { motion } from "motion/react";
-import image2 from "../../assets/IMG_2803.png";
+import ToolGrid from "../ToolGrid/ToolGrid";
 
 const DynamicHeroText = () => {
     const [jobTitle, setJobTitle] = useState("Full-Stack Web Developer");
@@ -26,7 +25,7 @@ const DynamicHeroText = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="flex items-center min-h-screen hero-container border-b-red-700 mb-24"
+            className="flex items-center min-h-screen hero-container border-b-red-700"
         >
             <div className="container mx-auto pt-28 flex flex-col md:flex-row items-center justify-between px-4 lg:px-12 py-2 gap-8 h-auto">
                 <div className="flex-1">
@@ -73,14 +72,14 @@ const DynamicHeroText = () => {
                     </div>
                 </div>
 
-                <motion.div
-                    className="flex-1 flex justify-center items-center pb-6"
-                    // initial={{ opacity: 0, y: 50 }}
-                    // whileInView={{ opacity: 1, y: 0 }}
-                    // transition={{ duration: 1 }}
-                >
-                    <img src={image2} alt="Your Hero Image" className="rounded-lg shadow-lg max-h-96 w-auto shadow-black" />
-                </motion.div>
+                <div className="flex-1 flex justify-center items-center">
+                    <div className="w-full max-w-md">
+                        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-gray-100 tracking-tight">
+                            Tech I Love
+                        </h2>
+                        <ToolGrid />
+                    </div>
+                </div>
             </div>
         </motion.div>
     );
