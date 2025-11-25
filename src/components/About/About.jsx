@@ -3,7 +3,7 @@ import ToolGrid from "../ToolGrid/ToolGrid";
 
 export default function About() {
     return (
-        <section className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 flex mb-32s">
+        <section className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 flex mb-32">
             <div className="container mx-auto px-4 lg:px-12 py-2">
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-12 items-start">
                     <div className="order-2 md:order-2 flex justify-center">
