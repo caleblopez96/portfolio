@@ -26,16 +26,19 @@ const DynamicHeroText = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="flex items-center min-h-screen hero-container border-b-red-700"
+            className="flex items-center min-h-screen hero-container border-b-red-700 mb-24"
         >
             <div className="container mx-auto pt-28 flex flex-col md:flex-row items-center justify-between px-4 lg:px-12 py-2 gap-8 h-auto">
                 <div className="flex-1">
-                    <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-primary font-semibold">Hi, I'm Caleb</h2>
-                    <p className="text-xl sm:text-2xl md:text-3xl mt-2">
+                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-gray-100 tracking-tight">
+                        Hi, I'm Caleb
+                    </h2>
+                    <p className="text-xl sm:text-2xl mt-2">
                         <span className="font-primary font-semibold text-red-700">{jobTitle}</span>
                     </p>
                     <p className=" max-w-xl text-lg sm:text-xl md:text-2xl lg:text-2xl text-balance py-3 font-primary">
-                        with over two years of experience building UIs with React, integrating web APIs, and developing backend services.
+                        I have over two years of experience building UIs with React, integrating web APIs, and developing backend services
+                        for the financial services industry.
                     </p>
                     <div className="py-4 flex gap-2">
                         <a
