@@ -1,90 +1,89 @@
 header {
-  top: 0;
-  width: 100%;
-  scroll-padding-top: 5rem;
+    top: 0;
+    width: 100%;
+    scroll-padding-top: 5rem;
 }
 
 .navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.5rem;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .bar {
-  display: block;
-  width: 30px;
-  height: 4px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-menu {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 1.25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.25rem;
 }
 
 .nav-item {
-  font-size: 1.25rem;
-  list-style-type: none;
+    font-size: 1.25rem;
+    list-style-type: none;
 }
 
 .nav-link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .button-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .nav-menu {
-  position: fixed;
-  left: -100%;
-  top: 5rem;
-  flex-direction: column;
-  width: 100%;
-  text-align: center;
-  transition: 0.3s;
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
 }
 
 .nav-menu.active {
-  left: 0;
-  top: 3.8rem;
-  /* position: absolute; */
-  height: 100vh;
-
+    left: 0;
+    top: 3.8rem;
+    /* position: absolute; */
+    height: auto;
 }
 
 .nav-item {
-  margin: 2rem 0;
+    margin: 2rem 0;
 }
 
 .hamburger {
-  display: block;
-  cursor: pointer;
+    display: block;
+    cursor: pointer;
 }
 
 .navigation-button-container {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }
 
 .hamburger.active .bar:nth-child(2) {
-  opacity: 0;
+    opacity: 0;
 }
 
 .hamburger.active .bar:nth-child(1) {
-  transform: translateY(10px) rotate(45deg);
+    transform: translateY(10px) rotate(45deg);
 }
 
 .hamburger.active .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
 }

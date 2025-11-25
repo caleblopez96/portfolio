@@ -98,7 +98,7 @@ export default function ToolsAndTechnologies() {
                 {technologies.map((tech) => (
                     <div
                         key={tech.name}
-                        className={`${tech.color} font-semibold px-2 py-2 rounded shadow hover:shadow-lg transition-shadow duration-200`}
+                        className={`${tech.color} font-semibold px-3 py-3 rounded shadow hover:shadow-lg transition-shadow duration-200`}
                         role="button"
                     >
                         {tech.name}
