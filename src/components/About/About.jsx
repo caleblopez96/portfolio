@@ -38,9 +38,8 @@ export default function About() {
                             <p className="text-base md:text-lg leading-relaxed text-balance">
                                 I’m a full-time student pursuing a BS in GIT with a focus on full-stack web development from Arizona State
                                 University. I’m originally from Houston, Texas, but transferred to ASU after leaving the Army to pursue my
-                                passion for programming. I have some minor experience building web applications using JavaScript, React, and
-                                Node.js. I know I still have a lot to learn, but my passion for solving problems and the enjoyment I get
-                                from programming keeps me coming back for more.
+                                passion for programming. I have experience building UI's with React and developing backend services for the
+                                financial services industry.
                             </p>
                             <p className="text-base md:text-lg leading-relaxed text-balance">
                                 After graduation, I hope to work on enterprise-level web applications, particularly with JavaScript and

@@ -42,8 +42,8 @@ const Navbar = () => {
                     </a>
                 </li>
                 <li className="nav-item">
-                    <a href="#form" className="nav-link text-light-text dark:text-dark-text" onClick={handleLinkClick}>
-                        contact
+                    <a href="#casestudies" className="nav-link text-light-text dark:text-dark-text" onClick={handleLinkClick}>
+                        case studies
                     </a>
                 </li>
             </ul>
