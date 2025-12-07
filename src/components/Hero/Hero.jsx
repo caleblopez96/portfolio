@@ -22,11 +22,11 @@ const DynamicHeroText = () => {
     return (
         <section
             id="Top"
-            className="min-h-screen flex items-center bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800"
+            className="min-h-screen flex items-center bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800
+               pt-24 md:pt-32 lg:pt-0"
         >
             <div className="container mx-auto px-4 lg:px-12 py-20">
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
-                    {/* LEFT SIDE - Content */}
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
