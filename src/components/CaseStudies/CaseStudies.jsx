@@ -4,7 +4,7 @@ import Tenp from "../../assets/Tenp.png";
 
 const caseStudies = [
     {
-        id: "website-redesign", // ✅ FIXED: Changed to kebab-case (no spaces)
+        id: "website-redesign",
         title: "10th Planet Phoenix Website Redesign",
         category: "Frontend Development",
         description: "Rebuilt the 10th Planet Phoenix website with React and Node.js, increasing accessibility and modernizing the site",

@@ -4,8 +4,8 @@ import { useEffect } from "react";
 import Tenp from "../../assets/Tenp.png";
 
 const caseStudiesData = {
-    "Website Redesign": {
-        title: "Website Redesign",
+    "website-redesign": {
+        title: "website redesign",
         category: "Full-Stack Development",
         client: "10th Planet Phoenix",
         duration: "4 months",

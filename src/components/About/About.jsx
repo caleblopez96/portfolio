@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import image2 from "../../assets/IMG_2803.png";
-import ToolGrid from "../ToolGrid/ToolGrid";
 
 export default function About() {
     return (
